@@ -13,7 +13,7 @@ public class Game {
     boolean userQuits = false;
 
     public void run(){
-
+        boolean userQuits = false;
         startTutorial();
 
         while(userQuits){
