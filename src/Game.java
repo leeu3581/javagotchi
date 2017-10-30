@@ -15,10 +15,10 @@ public class Game {
     public void run(){
 
         startTutorial();
+
         while(userQuits){
             interact();
             print(this.creature.checkStatus());
-
 
         }
 
@@ -27,7 +27,7 @@ public class Game {
 
     private void startTutorial() {
         print("Hi ");
-        print("Whats the name of ur creautre?");
+        print("Whats the name of ur creature?");
 
         String name = scanner.nextLine();
 
