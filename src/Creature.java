@@ -67,6 +67,11 @@ public class Creature {
             status += "Woops" + this.getName() + "is super hungry\n";
         }
 
+        if (fullness == 0 || energy == 0 || happiness == 0 ){
+            print("Oh no!" + this.getName() + " has died. Game over.");
+            System.exit(0);
+        }
+
         return status;
     }
 
